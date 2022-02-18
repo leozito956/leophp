@@ -43,7 +43,7 @@ echo $f['gender']."<br>";?></td>
   <tr><td> Image</td><td>
 
  <img src="<?php
-echo $f['image'];?>" width="100px" height="300px">
+echo $f['image'];?>" width="350px" height="200px">
 </td>
 
 </tr>
