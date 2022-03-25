@@ -48,8 +48,18 @@ if(isset($_POST['sub'])){
                         city
                         <select name="city">
                             <option value="">-select-</option>
-                            <option value="knp">kanpur</option>
-                            <option value="lko">lucknow</option>
+                            <?php
+                            $sqlCity = mysqli_query($con, "select * from city");
+
+                            while($item = mysqli_fetch_assoc($sqlCity))
+                            {
+                                $nameCity = $item["nameCity"];
+                                $idCity = $item["idCity"];
+                                echo"
+                                <option value=$nameCity>$nameCity</option>
+                                ";
+                            }
+                            ?>
                     </td>
                 </tr>
                 <tr>
