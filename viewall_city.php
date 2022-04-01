@@ -1,8 +1,11 @@
 <?php
 include 'connect.php';
-include'checkLogin.php';
+// include'checkLogin.php';
 
 ?>
+
+<a href="reg_city.php"> adicionar cidade </a>
+
 <table border='1'>
     <tr>
         <th>
