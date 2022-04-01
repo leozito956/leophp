@@ -20,10 +20,10 @@ while($f=  mysqli_fetch_assoc($qu)){
     ?>
     <tr>
         <td>
-            <?php echo $f['name']?>
+            <?php echo $f['idCity']?>
         </td>
         <td>
-            <?php echo $f['username']?>
+            <?php echo $f['nameCity']?>
         </td>
     </tr>
     <?php
