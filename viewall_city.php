@@ -9,10 +9,13 @@ include 'connect.php';
 <table border='1'>
     <tr>
         <th>
-            Name
+            idCity
         </th>
         <th>
-            Username
+            Name
+        </th>
+        <th> 
+            Excluir
         </th>
     </tr>
 
@@ -27,6 +30,9 @@ while($f=  mysqli_fetch_assoc($qu)){
         </td>
         <td>
             <?php echo $f['nameCity']?>
+        </td>
+        <td>
+            <a href="delete_city.php"> Delete </a>
         </td>
     </tr>
     <?php
