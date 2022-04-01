@@ -4,7 +4,7 @@ include 'connect.php';
 
 ?>
 
-<a href="reg_city.php"> adicionar cidade </a>
+<a href="regcity.php"> adicionar cidade </a>
 
 <table border='1'>
     <tr>
